@@ -36,7 +36,8 @@ public class Main {
 
         race.put(new Bus("Икарус", "553", 3),mechanicsList2 );
         race.put(new Bus("Икарус", "553", 3),mechanicsList );
-        System.out.println("--------------- change mechanics list in Bus && try to put same Bus ----------------");
+        race.put(new Bus("Икарус", "553", 3),mechanicsList );
+        System.out.println("\n--------------- change mechanics list in Bus && try to put the same Bus ----------------\n");
 
         printRace(race);
     }// main
